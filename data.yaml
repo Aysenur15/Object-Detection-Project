@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['SignStore', 'Utility Pole Information Plate']
+
+roboflow:
+  workspace: object-detection-xht9p
+  project: object-detection-project-v3abc
+  version: 1
+  license: Public Domain
+  url: https://universe.roboflow.com/object-detection-xht9p/object-detection-project-v3abc/dataset/1
